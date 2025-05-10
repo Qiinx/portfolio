@@ -30,45 +30,90 @@
     </header>
 
     <section id="about" class="intro">
-        <h2>About me</h2>
-        <p>My name is David Praher I am a student in the 3rd year at HTL Perg, specializing in software development. I'm
-            passionate about coding, technology, and continuously expanding my skills in areas like web development,
-            programming, and software engineering.</p>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="projects">
-            <div class="project-card">
-                <h3>Projekt 1</h3>
-                <p>Kurzbeschreibung des Projekts. Technologien: HTML, CSS, JavaScript</p>
-            </div>
-            <div class="project-card">
-                <h3>Projekt 2</h3>
-                <p>Ein weiteres Beispielprojekt mit einer kurzen Beschreibung.</p>
-            </div>
-            <!-- Weitere Projektkarten nach Bedarf -->
+        <h2 id="aboutme-text">About me</h2>
+        <h1 id="characteristics">Characteristics</h1>
+        <div class="line"></div>
+        <div class="about-1">
+            <p>My name is David Praher, I am 17 years old a student in the 3rd year at HTL Perg, specializing in software development.
+                I'm
+                passionate about coding, technology, and continuously expanding my skills in areas like web development,
+                programming, and software engineering.
+            </p>
+            <image>
+                <img src="images/pexels-fox-58267-1038916.jpg" alt="David Praher" class="profile-image" width="400">
+            </image>
+        </div>
+        <h1 id="hobbies">My hobbies</h1>
+        <div class="line"></div>
+        <div class="about-1" id="part2">
+            <p>In my free time, I enjoy going to the gym and playing video games. My favorite games are Rust, CS2, and
+                League of Legends because they’re competitive and always keep me engaged. I like pushing myself both
+                in-game and at the gym to get better every day.
+            </p>
+            <image>
+                <img src="images/pexels-yankrukov-9071735.jpg" alt="David Praher" class="profile-image" width="400">
+            </image>
+        </div>
+        <h1 id="future-goals">My future goals</h1>
+        <div class="line"></div>
+        <div class="about-1">
+            <p>In the future, I want to work in tech, maybe in software development or game design. I plan to keep
+                learning and improving my skills. Staying active in the gym helps me stay focused and motivated. I’m
+                excited to take on challenges and create innovative projects.
+            </p>
+            <image>
+                <img src="images/pexels-googledeepmind-18069697.jpg" alt="David Praher" class="profile-image" width="400" >
+            </image>
         </div>
     </section>
 
-    <section id="contact">
-        <h2>Kontakt</h2>
-        <p>Du kannst mich per E-Mail erreichen: <a href="mailto:max@example.com">max@example.com</a></p>
-        <form id="contact-form">
-            <input type="text" id="name" placeholder="Your Name" required>
-            <input type="email" id="email" placeholder="Your Email" required>
-            <textarea id="message" placeholder="Your Message" required></textarea>
-            <button id="send-button">Send</button>
-        </form>
-
-        <!-- EmailJS SDK einbinden -->
-        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-        <script src="email.js"></script>
-
+    <section id="projects">
+        <h2 id="project-text">Projects</h2>
+        <div class="line"></div>
+        <div class="projects">
+            <div class="project-card">
+                <h3>My Portfolio</h3>
+                <p>One of my projects that you are currently looking at, my Portfolio
+                    it gives a brief instrucion about me and my projects.<br><br><br><br>
+                    Technologies:<br> HTML, CSS, JavaScript
+                </p>
+            </div>
+            <div class="project-card">
+                <h3>Students@HTL</h3>
+                <p>A Videogame that me and 3 other talented developers created whilst
+                    we were in the 3rd year of HTL Perg. It is a 2D game where you can play
+                    as a student and you have to complete tasks to get to the next level.
+                    <br><br>
+                    Technologies:<br> Unity, C#, Visual Studio
+                </p>
+            </div>
+            <div class="project-card">
+                <h3>Keyport</h3>
+                <p>An app where you can store your Hotel keys on your Smartphone so 
+                    you never have to worry about losing them again. It is a project that
+                    I am currently working on with 3 other developers.
+                    <br><br>
+                    Technologies:<br> Flutter, Dart, Visual Studio Code
+                </p>
+            </div>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2025 Max Mustermann</p>
+        <p>&copy; 2025 David Praher</p>
+        <section id="contact">
+            <h2 id="contact-text">Contact</h2>
+            <form id="contact-form">
+                <div id="email-info">
+                    <div id="email-contact">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <button id="send-button">Send</button>
+                </div>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+            </form>
+        </section>
     </footer>
 </body>
 
